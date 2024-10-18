@@ -36,10 +36,12 @@ body {
   font-size: var(--fs);
   font-weight: 800;
   letter-spacing: var(--ls);
-  position: relative;
+  position: fixed;
   overflow: hidden;
-  background: var(--bg);
+  background: transparent;
   margin: 0;
+  top: 0;
+  width: 100%;
 }
 
 .subtitle {
