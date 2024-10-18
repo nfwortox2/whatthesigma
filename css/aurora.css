@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap");
 
 :root {
-  --bg: transparent;
+  --bg: #000000;
   --clr-1: #ff70a6;
   --clr-2: #e9ff70;
   --clr-3: #ff9970;
@@ -38,7 +38,7 @@ body {
   letter-spacing: var(--ls);
   position: fixed;
   overflow: hidden;
-  background: transparent;
+  background: var(--bg);
   margin: 0;
   top: 0;
   width: 100%;
