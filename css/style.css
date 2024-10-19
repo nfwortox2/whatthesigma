@@ -74,7 +74,7 @@ body {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     color: transparent;
-    animation: reveal 1s ease-in-out 0s forwards; /* 5s delay before starting */
+    animation: reveal 1s ease-in-out 10s forwards; /* 5s delay before starting */
 }
 @keyframes reveal {
     to {

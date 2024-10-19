@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, 
+maximum-scale=1.0, user-scalable=no" /> 
     <title>Woman's Day</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/glitch.css">
@@ -10,6 +11,15 @@
     <link rel="stylesheet" href="css/type.css">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script>
+        function detectMobile() {
+            const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+            if (/android|iPad|iPhone|iPod/i.test(userAgent)) {
+                document.body.innerHTML = "<h1>Từ chối truy cập</h1><p>Hãy sử dụng máy tính hoặc chế độ xem web máy tính >.<</p>";
+            }
+        }
+        window.onload = detectMobile;
+    </script>
 </head>
 <body>
 	<div class="flower">
@@ -59,7 +69,7 @@
 	<div class="reveal-text">Mừng ngày<br> Quốc Tế Phụ Nữ 20/10</div>
 	
 	<div class="reveal-text-1">Nhân ngày Phụ nữ Việt Nam 20/10, mình xin gửi lời chúc<br> tốt đẹp nhất đến tất cả các bạn nữ, cô giáo và gia đình. <br>Chúc mọi người luôn mạnh khỏe, hạnh phúc, xinh đẹp và <br>đạt được mọi ước mơ trong cuộc sống.</div>
-	<div class="reveal-text-2">Cảm ơn các bạn đã luôn bên cạnh, chia sẻ và đồng hành<br> cùng mình. Chúc tất cả mọi người có một ngày 20/10<br> thật ý nghĩa và tràn đầy niềm vui! </div>
+	<div class="reveal-text-2">Cảm ơn các bạn đã luôn bên cạnh, chia sẻ và đồng hành<br> cùng mình. Chúc tất cả mọi người có một ngày 20/10 thật<br> ý nghĩa và tràn đầy niềm vui! </div>
     <footer>
 		<p>© 2077 Sigma Skibidi Rizz Amongus 12C6 Vip Pro</p>
 		<a href="https://www.facebook.com/nguyentrungdung11346/" class="fa fa-facebook-official"></a>
