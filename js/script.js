@@ -1,8 +1,17 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const messages = document.querySelectorAll('.animated-text');
-    messages.forEach((message, index) => {
+document.addEventListener("DOMContentLoaded", () => {
+    const container = document.getElementById("container");
+    const message = "This is a sample message that will appear word by word.";
+    const words = message.split(" ");
+    let delay = 5000; // 5 seconds delay
+
+    words.forEach((word, index) => {
+        const wordElement = document.createElement("div");
+        wordElement.className = `word ${index % 2 === 0 ? 'left' : 'right'}`;
+        wordElement.textContent = word;
+        container.appendChild(wordElement);
+
         setTimeout(() => {
-            message.classList.add('visible');
-        }, index * 1000); // Delay each message by 2 seconds
+            wordElement.style.opacity = 1;
+        }, delay + index * 1000); // 1 second interval between words
     });
 });
