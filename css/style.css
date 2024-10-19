@@ -57,7 +57,7 @@ h1 {
     overflow: hidden;
     background-color: #333;
     padding: 14px 16px;
-	vertical-align:top;
+	vertical-align: top;
     text-align: center;
 }
 @media (max-width: 600px) {
