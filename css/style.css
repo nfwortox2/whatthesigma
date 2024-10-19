@@ -76,6 +76,10 @@ body {
     color: transparent;
     animation: reveal 1s ease-in-out 10s forwards; /* 5s delay before starting */
 }
+.blockmsg {
+            display: none;
+            color: #ff0000; /* Red color */
+        }
 @keyframes reveal {
     to {
         opacity: 1;
