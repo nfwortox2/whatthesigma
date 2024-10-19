@@ -53,6 +53,10 @@ h1 {
     opacity: 1;
     transform: translateY(0);
 }
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
 @media (max-width: 600px) {
     h1 {
         font-size: 2em;
